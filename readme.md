@@ -6,6 +6,7 @@ Preservation of historical documents is a critical responsibility that we cannot
 In this project you will notice that there are different models that are used with the different purposes. Each model has their description as below:
 - `model_en_de.py` is implemented with Encoder-Decoder architecture.
 - `model_bert.py` is implemented with BERT model.
+- `test.py` is a file for testing function or data.
 
 
 Below is a table of our experimental results with the different variables.
