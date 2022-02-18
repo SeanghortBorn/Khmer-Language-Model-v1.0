@@ -8,6 +8,15 @@ In this project you will notice that there are different models that are used wi
 - `model_bert.py` is implemented with BERT model.
 - `test.py` is a file for testing function or data.
 
+### Environment Setup
+- Python version = 3.7.10
+- PyTroch version = 1.8.1
+- Conda version = 4.11.0
+- Dataset sources:
+  - `SBBICkm_KH.txt` : https://sbbic.org/2010/07/29/sbbic-khmer-word-list/
+  - `SluekRith-Set.txt` : https://github.com/donavaly/SleukRith-Set
+
+### Experimental Results
 
 Below is a table of our experimental results with the different variables.
 
