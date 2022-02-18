@@ -7,7 +7,7 @@ import torch.optim as optim
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Open Data
-path = '//data/'
+path = 'data/'
 f = open(path + 'SBBICkm_KH.txt', 'r', encoding="utf8")
 all_words = f.readlines()
 f.close()
