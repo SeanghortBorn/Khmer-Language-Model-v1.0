@@ -177,9 +177,8 @@ for w in all_words:
             words.append(w)
 
 # Prepare data for training: Select 'numbers_of_words' word from the original dataset 'SBBIC.txt' randomly
-numbers_of_words = 1000
 random.shuffle(words)
-words = words[:numbers_of_words]
+words = words[:1000]
 
 f = open(path + 'kh_words.txt', 'w', encoding="utf8")
 for w in words:
@@ -188,7 +187,7 @@ f.close()
 
 # Train model
 b_sz = 100
-hidden_size = 512
+hidden_size = 128
 
 hid_sz = hidden_size
 encoder = Encoder(hid_sz)
@@ -199,7 +198,7 @@ opt = optim.Adam(list(encoder.parameters()) + list(decoder.parameters()), lr=0.0
 
 # words = words[:100]+words[8000:8100]+words[-100:]
 print(len(words))
-for j in range(5000):
+for j in range(1000):
     random.shuffle(words)
     i = 0
     while i + b_sz <= len(words):
