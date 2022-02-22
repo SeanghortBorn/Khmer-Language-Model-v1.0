@@ -12,8 +12,9 @@ In this project you will notice that there are different models that are used wi
 - PyTroch version = 1.8.1
 - Conda version = 4.11.0
 - Dataset sources:
-  - `SBBICkm_KH.txt` : https://sbbic.org/2010/07/29/sbbic-khmer-word-list/
-  - `SluekRith-Set.txt` : https://github.com/donavaly/SleukRith-Set
+    - `SBBICkm_KH.txt` : https://sbbic.org/2010/07/29/sbbic-khmer-word-list/
+    - `SluekRith-Set.txt` : https://github.com/donavaly/SleukRith-Set
+    - Khmer Unicode Table: https://unicode.org/charts/PDF/U1780.pdf
 
 ### Experimental Results
 
